@@ -24,7 +24,7 @@ let myObj ={Name: "Vibha",
 
 //funtions
 
-const myFunction = Function()
+/*const myFunction = Function()
     console.log("Hello world");
 
 
@@ -35,4 +35,25 @@ console.log(typeof myObj);
 console.log(typeof outsideTemp);
 console.log(typeof isLoggedIn);
 console.log(typeof myFunction);
-console.log(typeof myObj);
+console.log(typeof myObj);*/
+
+
+// stack(primitive) , Heap(Non primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "ashhkj@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "vibh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
